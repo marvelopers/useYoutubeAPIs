@@ -15,7 +15,8 @@ function App({ youtube }) {
     youtube
       .mostPopular() //
       .then(videos => setVideos(videos));
-  }, []);
+  }, );
+
   return (
     <div className={styles.app}>
       <SearchHeader onSearch={search} />

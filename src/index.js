@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app';
+import App from './App';
 import Youtube from './service/youtube';
 
 const youtube = new Youtube(process.env.REACT_APP_YOUTUBE_API_KEY);
